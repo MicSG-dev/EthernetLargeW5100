@@ -15,7 +15,7 @@
 
 // Inclusion of libraries
 #include <SPI.h>           // native
-#include <EthernetLarge.h> // https://github.com/MicSG-dev/EthernetLarge
+#include <EthernetLargeW5100.h> // https://github.com/MicSG-dev/EthernetLarge
 #include <SSLClient.h>     // https://github.com/OPEnSLab-OSU/SSLClient
 #include "trust_anchors.h" // the local file trust_anchors.h | Use the Generator at https://openslab-osu.github.io/bearssl-certificate-utility/ informing the sites you will access
 

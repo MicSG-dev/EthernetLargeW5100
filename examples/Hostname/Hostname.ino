@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include <EthernetLarge.h>
+#include <EthernetLargeW5100.h>
 
 IPAddress ip(192, 168, 0, 1);
 EthernetServer server(80);
